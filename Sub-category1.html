@@ -1,0 +1,172 @@
+<!--  
+    RMIT University Vietnam
+     Course: COSC2430 Web Programming
+     Semester: 2023A
+     Assessment: Assignment 1
+     Author: Tran Hoang Khiem
+     ID: s3996954
+     Acknowledgement: https://www.w3schools.com --> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiction book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="webcontainer">
+        <!--Create content box in main container-->
+        <div class="content">
+            <!--Create the navigation bar-->
+            <h1 id="headercontainer">
+                <!--Element-->
+                <div class="headerbox"><a href="Main page.html"><img class="logo" src="images/web/image web.png" alt="logo"></a></div>
+                <div class="headerbox"><a href="Sub-category1.html">Fiction Book</a></div>
+                <div class="headerbox"><a href="sub-category2.html">Non-Fiction Book</a></div>
+                <div class="headerbox"><a href="ContractUs.html">Contract Us</a></div>
+            </h1>
+        <!--header-->
+        <p><a href="Main page.html">Home page</a>
+        > <a href="Sub-category1.html"><strong>Fiction Book</strong></a>
+        </p>
+
+        <!-- Create horror table -->
+        <table class="booktable">
+            <tbody>
+                <th><p><strong>Horror Book</strong></p></th>
+                <tr>
+                    <!--Create the container for book-->
+                    <td class="bookcontainer">
+                        <!--Divide the box for each book-->
+                        <div class="bookproduct">
+                            <a href="Hannibal.html">
+                                <img src="images/Horror/1st Hannibal/hannibal main book.png" alt="Hannibal Lecter">
+                                <p>Hannibal</p>
+                                <p>4.99$</p>
+                            </a>
+                            <a href="Hannibal.html" class="addcartbutton">Add to cart</a>
+                         </div>
+                        <!--Divide the box for each book-->
+                        <div class="bookproduct">
+                            <a href="Silenceofthelamb.html">
+                                <img src="images/Horror/Silence of the sheep/main silence of the sheep.png" alt="Hannibal Lecter 2">
+                                <p>Silence of the lambs</p>
+                                <p>5.99$</p>
+                            </a>
+                            <a href="Silenceofthelamb.html" class="addcartbutton">Add to cart</a>
+                         </div>
+                        <!--Divide the box for each book-->
+                        <div class="bookproduct">
+                            <a href="TheRisingHannibal.html">
+                                <img src="images/Horror/The rising hannibal/main.png" alt="Hannibal Lecter 3">
+                                <p>The Rising Hannibal</p>
+                                <p>4.99$</p>
+                            </a>
+                            <a href="TheRisingHannibal.html" class="addcartbutton">Add to cart</a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="Main page.html" class="showallbutton">Go back to Homepage</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Create Detective book -->
+        <table class="booktable">
+            <tbody>
+                <th><p><strong>Detective Book</strong></p></th>
+                <tr>
+                    <td class="bookcontainer">
+                        <!--Divide the box for each book-->
+                        <div class="bookproduct">
+                            <a href="Sherlockholmes1.html">
+                                <img src="images/Detective/Sher1/main.png" alt="Sherlockholmes1">
+                                <p>Sherlock Holmes 1</p>
+                                <p>5.99$</p>
+                            </a>
+                            <a href="Sherlockholmes1.html" class="addcartbutton">Add to cart</a>
+                        </div>
+                        <!--Divide the box for each book-->
+                        <div class="bookproduct">
+                            <a href="Sherlockholmes2.html">
+                                <img src="images/Detective/Sher2/main.png" alt="Sherlockholmes2">
+                                <p>Sherlock Holmes 2</p>
+                                <p>5.99$</p>
+                            </a>
+                            <a href="Sherlockholmes2.html" class="addcartbutton">Add to cart</a>
+                        </div>
+                        <!--Divide the box for each book-->
+                        <div class="bookproduct">
+                            <a href="Sherlockholmes3.html">
+                                <img src="images/Detective/Sher3/main.png" alt="Sherlockholmes3">
+                                <p>Sherlock Holmes 3</p>
+                                <p>5.99$</p>
+                            </a>
+                            <a href="Sherlockholmes3.html" class="addcartbutton">Add to cart</a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="Main page.html" class="showallbutton">Go back to Homepage</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+            <!--Create navigation footer-->
+            <div class="footer">
+                <table class="tableinfooter">
+                    <tr>
+                        <td class="footerbox"><strong>About Us</strong></td>
+                        <td class="footerbox"><strong>Privacy Policy</strong></td>
+                        <td class="footerbox"><strong>Terms</strong></td>
+                        <td class="footerbox"><a href="ContractUs.html"><strong>Contract Us</strong></a></td>
+                    </tr>
+                    <tr>
+                        <td class="eachfooterinfo">
+                            <li>Sell the best book for the bright future</li>
+                        </td>
+                        <td class="eachfooterinfo">
+                            <li>Keep customer information in private</li>
+                            <li>Refund if the product is not satisfied and quality </li>
+                        </td>
+                        <td class="eachfooterinfo">
+                            <p><strong>Ordering and Payment:</strong></p>
+                                <li>Your order will be in our website, contract with our customer-service, email</li>
+                                <li>
+                                    Payment:
+                                    <a href="https://www.visa.com.vn/"><img class="payimage" src="visa.jpg" alt="visa"></a>     
+                                    <a href="https://www.mastercard.com.vn/vi-vn.html"><img class="payimage" src="mastercard.jpg" alt="mastercard"></a>  
+                                    <a href="https://zalopay.vn/"><img class="payimage" src="zalopay.jpg" alt="zalopay"></a>     
+                                    <a href="https://momo.vn/"><img class="payimage" src="momo.jpg" alt="momo"></a>
+                                </li>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="footerbox" colspan="4"><strong>Why reading matter?</strong></th>
+                    </tr>
+                    <tr>
+                        <td class="footerbox" colspan="4">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/muuWRKYi09s?start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="footerbox" colspan="4">
+                            <p><strong>Copyright © 2023 KTeacher1004.github.io/SunshineBookstore</strong></p>
+                        </td>
+                    </tr>
+    
+                </table>
+            </div>
+
+    </div>
+    
+    
+</body>
+</html>

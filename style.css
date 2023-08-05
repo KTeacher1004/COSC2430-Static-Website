@@ -1,0 +1,208 @@
+/* <!--  
+ RMIT University Vietnam
+  Course: COSC2430 Web Programming
+  Semester: 2023A
+  Assessment: Assignment 1
+  Author: Tran Hoang Khiem
+  ID: s3996954
+  Acknowledgement: https://www.w3schools.com --> */
+
+  /* Create a container for content  */
+  body {
+    background-color:rgb(20, 71, 148);
+    margin: 0px 10px;
+    padding: 0;
+}
+
+
+.webcontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Display for main content */
+.content {
+    flex-grow: 2;
+}
+
+
+/* Create a container for header navigation bar*/
+#headercontainer {
+    background-color:white;
+    border: 2px solid black;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+}
+
+/* Display each link inside the navigation bar */
+.headerbox{
+    flex: auto;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Bookstore logo inside the navigation bar*/
+.logo {
+    height: 50px;
+}
+
+div {
+    display: block;
+}
+
+/* Clear the text decoration of each link */
+a {
+    text-decoration: none;
+    color: #000000; 
+  }
+
+/* Add color when point on the link */
+a:hover {
+    text-decoration: none;
+    color: #7c7c7c; 
+}
+
+/* Build a fiction table to display the books on it */
+.booktable {
+    background-color: rgb(76, 65, 157);
+    table-layout: fixed;
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+    border-collapse: separate;
+    border-spacing: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Build a non-fiction table to display the books on it */
+.booktable2 {
+    background-color:rgba(170, 38, 82, 0.564);
+    table-layout: fixed;
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+    border-collapse: separate;
+    border-spacing: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Create a container to display books for each category */
+.bookcontainer {
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+/* Divide the space for each book inside the container */
+.bookproduct {
+    width: 33%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* scale the book image */
+.bookproduct img {
+    width: 75%;
+    height: 300px;
+    border-radius: 15px;
+}
+
+/* Create the add to cart button */
+.addcartbutton {
+    background-color: #af784c;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 10px 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s ;
+}
+
+/* Add color when point on the green button */
+.addcartbutton:hover {
+    background-color:red;
+    color: black;
+}
+
+/* Create the showall button */
+.showallbutton {
+    background-color: #acaf4c;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 10px 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s ;
+}
+
+/* Add color when point on the showall button */
+.showallbutton:hover {
+    background-color: rgb(128, 128, 128);
+    color: rgb(0, 0, 0);
+}
+
+
+/* Display for the footer */
+.footer {
+    height: 200px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Create the table to display contain in the footer */
+.tableinfooter {
+    background-color:rgb(53, 18, 124);
+    table-layout: fixed;
+    width: 100%;
+    font-size: 25px;
+    border-collapse: separate;
+    border-spacing: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Create fooer box */
+.footerbox {
+    
+    flex: auto;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Create payment image */
+.payimage {
+    flex: auto;
+    height:30px;
+    width:30px;
+}
+
+/* Adjust information of each part in the footer */
+.eachfooterinfo {
+    border: 0;
+    font-size: 20px;
+    text-align: left;
+    vertical-align: text-top;
+}
+
+/* Adjust the size of the iframe in the footer */
+.storage {
+    width: 600px;
+    height: 400px;
+}
