@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conntract Us Form</title>
+    <title>Hannibal Detail Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!--Create main container-->
     <div class="webcontainer">
         <!--Create content box in main container-->
         <div class="content">
@@ -19,68 +20,61 @@
                 <div class="headerbox"><a href="sub-category2.html">Non-Fiction Book</a></div>
                 <div class="headerbox"><a href="ContractUs.html">Contract Us</a></div>
             </h1>
-        
-
-
-
-            <table class="booktable", id="contract">
-                <th><h2><strong>Contract Us form</strong></h2></th>
-                <tr>
-                    <td class="bookcontainer">
-                        <div class="infocontain">
-                            <form action="app/form-processing" method="get" target="_blank">
-                            
-                                        <p > 1. Purposes </p>
-                                    <!--Divide each part in Contract Us form-->
-                                        <select class="infobox" name="Purposes" id="Purposes">
-                                            <option value="">--Please choose your purpose--</option>
-                                            <option value="I want to sell books">I want to sell books</option>
-                                        <option value="I want to buy books">I want to buy books</option>
-                                        </select>
-                                    <!--Divide each part in Contract Us form-->
-                                        <p >2. Your Name:</p>
-                                    
-                                        <input class="infobox" type="text" placeholder="Enter your full name here..." name="fullname" id="fullname">
-                                    <!--Divide each part in Contract Us form-->
-                                        <p ><strong>3. Email</strong></p>
-
-                                        <input class="infobox" type="text" placeholder="example@gmail.com" name="email" id="email">
-                                    <!--Divide each part in Contract Us form-->
-                                        <p ><strong>4. Contract reference</strong></p>
-
-                                        <input  type="checkbox" name="Conntract reference" id="Contract reference"> By email
-                                        <input  type="checkbox" name="Conntract reference" id="Contract reference"> By Phone
-                                    <!--Divide each part in Contract Us form-->
-                                        <p ><strong>Receive weekly newsletter</strong></p>
-
-                                        <input  type="radio" name="weeklynewsletter" value="yes"> Yes
-                                        <input  type="radio" name="weeklynewsletter" value="no"> No
-                                    <!--Divide each part in Contract Us form-->
-                                        <p ><strong>Extra notes</strong></p>
-
-                                        <textarea name="Note" id="Note" cols="30" rows="10" placeholder="write your note here"></textarea>
-                            </form>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <!--Create the submit and reset button-->
-                        <table class="booktable" id="contract">
+        <!--header-->
+        <p><a href=index.html>Home page</a>> <a href=Sub-category1.html>Fiction Book</a>> <a href =Hannibal.html><strong>The Silence of Lambs</strong></p>
+        <!--Create table to contain book-->
+        <table class="booktable">
+            <tr>
+                <!--Create the container for book-->
+                <td class="bookcontainer">
+                    <!--Create the box to divide book parts in the container-->
+                    <div class="bookdetails">
+                        <!--Table for book detail images-->
+                        <table class="bookdeepdetails">
                             <tr>
-                                <td><a href="index.html" class="addcartbutton">Submit!</a></td>
-                                <td><a href="ContractUs.html" class="addcartbutton">Reset</a></td>
+                                <td colspan="3" rowspan="3"><img class="bookmaindetails" src="images/Horror/Silence of the sheep/main silence of the sheep.png" alt="Main image Hannibal"></td>
+                                <td><img class="sideimage desktop" src="images/Horror/1st Hannibal/2side author.png" alt="The author"></td>
                             </tr>
+                            <tr>
+                                <td><img class="sideimage desktop" src="images/Horror/Silence of the sheep/side image 1.png" alt="2nd side image"></td>
+                            </tr>
+                            <tr>
+                                <td><img class="sideimage desktop" src="images/Horror/Silence of the sheep/2nd image.png" alt="3rd side image"></td>
+                                
+                            </tr>
+                         
+                            
+                            <!-- <tr>
+                                <td><img class="sideimage mobile" src="images/Horror/1st Hannibal/2side author.png" alt="The author"></td>
+                                <td><img class="sideimage mobile" src="images/Horror/1st Hannibal/2nd side image.jpg" alt="2nd side image"></td>
+                                <td><img class="sideimage mobile" src="images/Horror/1st Hannibal/side image hannibal.jpg" alt="3rd side image"></td>
+                            </tr>
+                        -->
                         </table>
-                    </td>
-                </tr>
-            </table>
+                    </div>
+                    
+                    <!--Create the box to divide book price and addtocart button-->
+                   <div>
+                        <p class="Price"><strong>Price: 5.99$</strong></p>
+                        <a href="ContractUs.html" class="addcartbutton">Add to cart</a>
+                   </div>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>The Silence of the lambs</strong></td>
+            </tr>
+            <tr>
+                <td>This is the second in the series Hannibal Lecter editions which give the viewer to see the thrilled and exciting events and investigation between Hannibal Lecture and Clarice Starling and this book later converted into the film in 1991. This film would later won all Big main 5 Award Oscar in 1992 Oscar, one of the few movies to ever achieve </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="index.html" class="showallbutton">Go back to Homepage</a>
+                </td>
+            </tr>
+        </table>
         </div>
     </div>
-
-
-
-    <!--Create navigation footer-->
+    <!--Footer-->
     <div class="footer">
         <table class="tableinfooter">
             <tr>
@@ -125,7 +119,8 @@
 
         </table>
     </div>
-    
-    
+
+
+
 </body>
 </html>

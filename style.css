@@ -201,8 +201,118 @@ a:hover {
     vertical-align: text-top;
 }
 
-/* Adjust the size of the iframe in the footer */
-.storage {
-    width: 600px;
-    height: 400px;
+/* Divide boxes for each parts in the Contact us page container */
+.bookdetails {
+    width: 50%;
+    margin: 0;
 }
+
+.bookdeepdetails {
+    margin: auto;
+}
+
+/* Adjust the size of main book detail images */
+.bookmaindetails {
+    height: 480px;
+    width: 300px;
+}
+
+/* Adjust the size of sub book detail images */
+.sideimage {
+    height: 148px;
+    width: 100px;
+}
+
+/* Make the 3 sub book detail images display on the left of main images on desktop */
+.desktop {
+    display: block;
+}
+
+.Price {
+    height: 150px;
+    width: 200px;
+    margin-top: 150px;
+    
+}
+ 
+
+#contract {
+    background-color:white;
+}
+
+.infobox {
+    width:250px;
+}
+
+.infocontain {
+    width:50%;
+    margin:0 0;
+}
+
+/* Make the 3 sub book detail image display on right of main images on desktop */
+.mobile {
+    display:none;
+}
+
+/*Responsive for moblie page */
+@media only screen and (max-width: 960px) {
+    /* Display the book boxes with 100% width in small screen */
+    .bookproduct {
+        width:100px;
+    }
+
+    /* Display navigation bar in small screen */
+    #headercontainer {
+        display: block;
+    }
+
+    /*Adjust the size of book images in small screen*/
+    .bookproduct img {
+        width:100%;
+        height:auto;
+    }
+
+    /*Footer*/
+    .eachfooterinfo {
+        font-size: 15px;
+    }
+
+    .footerbox {
+        font: size 20px;
+    }
+
+    .infobox {
+        width: 100%;
+    }
+
+    .bookmaindetails {
+        width: 100%;
+        height:auto
+    }
+
+    .addcartbutton{
+        margin:0;
+    }
+
+    /* Make the 3 sub book detail images display on under of main images on mobile */
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .videolocation{
+        height: 200px;
+        width: 250px;
+    }
+
+    .description {
+        display:none;
+    }
+
+ 
+
+}
+    
